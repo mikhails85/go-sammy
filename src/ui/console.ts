@@ -5,10 +5,10 @@ import * as figlet from 'figlet';
 export class ConsoleManager {
   constructor() {}
 
-  ClearUI(){
+  ClearUI() {
     clear();
   }
-  
+
   WriteLogo() {
     console.log(
       chalk.green(
@@ -29,4 +29,13 @@ export class ConsoleManager {
       )
     );
   }
+
+  WriteInfo(info: string) {
+    console.log(
+      chalk.blue(
+        info
+      )
+    );
+  }
+
 }
