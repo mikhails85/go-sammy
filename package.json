@@ -15,6 +15,7 @@
     "figlet": "^1.2.0",
     "inquirer": "^3.0.6",
     "minimist": "^1.2.0",
+    "node-storage": "0.0.7",
     "preferences": "^0.2.1",
     "shelljs": "^0.7.7",
     "typescript": "^2.3.3"
