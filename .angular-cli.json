@@ -1,0 +1,52 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "wwwroot"
+  },
+  "apps": [
+    {
+      "root": "./",
+      "outDir": "./bin/web/wwwroot",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "./src/web/wwwroot/index.html",
+      "main": "./src/web/wwwroot/main.ts",
+      "polyfills": "./src/web/wwwroot/polyfills.ts",
+      "test": "./src/web/wwwroot/test.ts",
+      "tsconfig": "./src/web/wwwroot/tsconfig.app.json",
+      
+      "prefix": "app",
+      "styles": [
+        "./src/web/wwwroot/styles.css"
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./src/web/wwwroot/protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "./src/web/wwwroot/tsconfig.app.json"
+    }
+   
+  ],
+  "test": {
+    "karma": {
+      "config": "./src/web/wwwroot/karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
