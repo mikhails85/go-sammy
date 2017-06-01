@@ -37,5 +37,13 @@ export class ConsoleManager {
       )
     );
   }
+  
+  WriteDebug(debug: string) {
+    console.log(
+      chalk.green(
+        debug
+      )
+    );
+  }
 
 }

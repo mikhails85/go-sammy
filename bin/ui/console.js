@@ -24,6 +24,9 @@ var ConsoleManager = (function () {
     ConsoleManager.prototype.WriteInfo = function (info) {
         console.log(chalk.blue(info));
     };
+    ConsoleManager.prototype.WriteDebug = function (debug) {
+        console.log(chalk.green(debug));
+    };
     return ConsoleManager;
 }());
 exports.ConsoleManager = ConsoleManager;
