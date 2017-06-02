@@ -8,8 +8,8 @@
       "root": "./",
       "outDir": "./bin/web/wwwroot",
       "assets": [
-        "assets",
-        "favicon.ico"
+        "./src/web/wwwroot/assets",
+        "./src/web/wwwroot/favicon.ico"
       ],
       "index": "./src/web/wwwroot/index.html",
       "main": "./src/web/wwwroot/main.ts",
@@ -22,29 +22,19 @@
         "./src/web/wwwroot/styles.css"
       ],
       "scripts": [],
-      "environmentSource": "environments/environment.ts",
+      "environmentSource": "./src/web/wwwroot/environments/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "dev": "./src/web/wwwroot/environments/environment.ts",
+        "prod": "./src/web/wwwroot/environments/environment.prod.ts"
       }
     }
-  ],
-  "e2e": {
-    "protractor": {
-      "config": "./src/web/wwwroot/protractor.conf.js"
-    }
-  },
+  ],  
   "lint": [
     {
       "project": "./src/web/wwwroot/tsconfig.app.json"
     }
    
-  ],
-  "test": {
-    "karma": {
-      "config": "./src/web/wwwroot/karma.conf.js"
-    }
-  },
+  ],  
   "defaults": {
     "styleExt": "css",
     "component": {}
