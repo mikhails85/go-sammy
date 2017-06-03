@@ -5,33 +5,33 @@
   },
   "apps": [
     {
-      "root": "./",
+      "root": "./src/web/wwwroot/",
       "outDir": "./bin/web/wwwroot",
       "assets": [
-        "./src/web/wwwroot/assets",
-        "./src/web/wwwroot/favicon.ico"
+        "assets",
+        "favicon.ico"
       ],
-      "index": "./src/web/wwwroot/index.html",
-      "main": "./src/web/wwwroot/main.ts",
-      "polyfills": "./src/web/wwwroot/polyfills.ts",
-      "test": "./src/web/wwwroot/test.ts",
-      "tsconfig": "./src/web/wwwroot/tsconfig.app.json",
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
       
       "prefix": "app",
       "styles": [
-        "./src/web/wwwroot/styles.css"
+        "styles.css"
       ],
       "scripts": [],
-      "environmentSource": "./src/web/wwwroot/environments/environment.ts",
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "dev": "./src/web/wwwroot/environments/environment.ts",
-        "prod": "./src/web/wwwroot/environments/environment.prod.ts"
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
       }
     }
   ],  
   "lint": [
     {
-      "project": "./src/web/wwwroot/tsconfig.app.json"
+      "project": "tsconfig.app.json"
     }
    
   ],  

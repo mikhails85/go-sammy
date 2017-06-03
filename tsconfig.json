@@ -56,7 +56,7 @@
     "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "exclude": [
-        "node_modules",
-        "./src/web/wwwroot"
+        "node_modules"/*,
+        "./src/web/wwwroot"*/
     ]
 }
