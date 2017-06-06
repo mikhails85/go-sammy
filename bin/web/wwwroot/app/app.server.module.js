@@ -6,28 +6,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var platform_browser_1 = require("@angular/platform-browser");
 var core_1 = require("@angular/core");
-var forms_1 = require("@angular/forms");
-var http_1 = require("@angular/http");
+var platform_server_1 = require("@angular/platform-server");
+var app_module_1 = require("./app.module");
 var app_component_1 = require("./app.component");
-var AppModule = (function () {
-    function AppModule() {
+var AppServerModule = (function () {
+    function AppServerModule() {
     }
-    return AppModule;
+    return AppServerModule;
 }());
-AppModule = __decorate([
+AppServerModule = __decorate([
     core_1.NgModule({
-        declarations: [
-            app_component_1.AppComponent
-        ],
         imports: [
-            platform_browser_1.BrowserModule.withServerTransition({ appId: 'go-sammy' }),
-            forms_1.FormsModule,
-            http_1.HttpModule
+            platform_server_1.ServerModule,
+            app_module_1.AppModule
         ],
-        providers: [],
         bootstrap: [app_component_1.AppComponent]
     })
-], AppModule);
-exports.AppModule = AppModule;
+], AppServerModule);
+exports.AppServerModule = AppServerModule;

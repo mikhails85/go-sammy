@@ -4,7 +4,7 @@
   "description": "coding helper",
   "main": "./bin/cli.js",
   "scripts": {
-    "start": "rm -rf bin/ && ng build && tsc && node ./bin/cli"
+    "start": "rm -rf bin/ && ng build && node_modules/.bin/ngc -p src/web/wwwroot/tsconfig.aot.json && tsc && node ./bin/cli"
   },
   "author": "",
   "license": "ISC",
