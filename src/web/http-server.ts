@@ -7,7 +7,7 @@ import 'reflect-metadata';
 import 'zone.js/dist/zone-node';
 import { platformServer, renderModuleFactory } from '@angular/platform-server'
 import { enableProdMode } from '@angular/core'
-import { AppServerModuleNgFactory } from './wwwroot/aot/app/app.server.module.ngfactory'
+import { AppServerModuleNgFactory } from './wwwroot/app/app.server.module.ngfactory'
 import { readFileSync } from 'fs';
 import { join } from 'path';
 

@@ -1,7 +1,7 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-        "outDir": "./../../bin/web/wwwroot/aot",
+        "outDir": "../../../bin/web/wwwroot",
         "baseUrl": "",
         "sourceMap": true,
         "declaration": false,
@@ -18,7 +18,7 @@
         ]
     },
     "angularCompilerOptions": {
-        "genDir": "./aot",
+        "genDir": ".",
         "entryModule": "./app/app.module#AppModule"
     }
 }
