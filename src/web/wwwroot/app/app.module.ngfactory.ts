@@ -13,6 +13,8 @@ import * as import3 from '@angular/platform-browser';
 import * as import4 from '@angular/forms';
 import * as import5 from '@angular/http';
 import * as import6 from './app.component.ngfactory';
+import * as import7 from './components/audio-player/audio.player.component.ngfactory';
+import * as import8 from './components/video-player/video.player.component.ngfactory';
 class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
   _CommonModule_0:import2.CommonModule;
   _ErrorHandler_1:any;
@@ -53,7 +55,17 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
   __RequestOptions_36:import5.BaseRequestOptions;
   __Http_37:any;
   constructor(parent:import0.Injector) {
-    super(parent,[import6.AppComponentNgFactory],[import6.AppComponentNgFactory]);
+    super(parent,[
+      import6.AppComponentNgFactory,
+      import7.AudioPlayerComponentNgFactory,
+      import8.VideoPlayerComponentNgFactory
+    ]
+    ,[
+      import6.AppComponentNgFactory,
+      import7.AudioPlayerComponentNgFactory,
+      import8.VideoPlayerComponentNgFactory
+    ]
+    );
   }
   get _LOCALE_ID_14():any {
     if ((this.__LOCALE_ID_14 == null)) { (this.__LOCALE_ID_14 = import0.ɵn(this.parent.get(import0.LOCALE_ID,(null as any)))); }
@@ -225,4 +237,4 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
   }
 }
 export const AppModuleNgFactory:import0.NgModuleFactory<import1.AppModule> = new import0.NgModuleFactory<any>(AppModuleInjector,import1.AppModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLm1vZHVsZS5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9ob21lL2NhYm94L3dvcmtzcGFjZS9zcmMvd2ViL3d3d3Jvb3QvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLm1vZHVsZS5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9ob21lL2NhYm94L3dvcmtzcGFjZS9zcmMvd2ViL3d3d3Jvb3QvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=

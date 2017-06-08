@@ -1,3 +1,11 @@
 https://medium.com/@evertonrobertoauler/angular-4-universal-app-with-angular-cli-db8b53bba07d
 
 git add -A && git commit -m "Your Message"
+
+https://w3layouts.com/free-web-elements/page/3/
+
+https://w3layouts.com/preview/?l=/mosaic-entertainment-category-flat-bootstrap-responsive-web-template/
+
+http://www.radzen.com/blog/jquery-plugins-and-angular/
+
+https://www.youtube.com/watch?v=IH1sXgpMRbI

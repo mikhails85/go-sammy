@@ -28,6 +28,8 @@
     "figlet": "^1.2.0",
     "fluent-ffmpeg": "^2.1.2",
     "inquirer": "^3.0.6",
+    "jplayer": "^2.9.2",
+    "jquery": "^3.2.1",
     "minimist": "^1.2.0",
     "node-storage": "0.0.7",
     "preferences": "^0.2.1",

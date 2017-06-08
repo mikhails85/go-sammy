@@ -17,6 +17,8 @@ import * as import7 from '@angular/forms';
 import * as import8 from './app.module';
 import * as import9 from '@angular/animations/browser';
 import * as import10 from './app.component.ngfactory';
+import * as import11 from './components/audio-player/audio.player.component.ngfactory';
+import * as import12 from './components/video-player/video.player.component.ngfactory';
 class AppServerModuleInjector extends import0.ɵNgModuleInjector<import1.AppServerModule> {
   _HttpModule_0:import2.HttpModule;
   _CommonModule_1:import3.CommonModule;
@@ -63,7 +65,12 @@ class AppServerModuleInjector extends import0.ɵNgModuleInjector<import1.AppServ
   __Title_42:import4.Title;
   __ɵi_43:import7.ɵi;
   constructor(parent:import0.Injector) {
-    super(parent,[import10.AppComponentNgFactory],[import10.AppComponentNgFactory]);
+    super(parent,[
+      import10.AppComponentNgFactory,
+      import11.AudioPlayerComponentNgFactory,
+      import12.VideoPlayerComponentNgFactory
+    ]
+    ,[import10.AppComponentNgFactory]);
   }
   get _BrowserXhr_17():import6.ɵc {
     if ((this.__BrowserXhr_17 == null)) { (this.__BrowserXhr_17 = new import6.ɵc()); }
@@ -256,4 +263,4 @@ class AppServerModuleInjector extends import0.ɵNgModuleInjector<import1.AppServ
   }
 }
 export const AppServerModuleNgFactory:import0.NgModuleFactory<import1.AppServerModule> = new import0.NgModuleFactory<any>(AppServerModuleInjector,import1.AppServerModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLnNlcnZlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9jYWJveC93b3Jrc3BhY2Uvc3JjL3dlYi93d3dyb290L2FwcC9hcHAuc2VydmVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLnNlcnZlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9jYWJveC93b3Jrc3BhY2Uvc3JjL3dlYi93d3dyb290L2FwcC9hcHAuc2VydmVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9

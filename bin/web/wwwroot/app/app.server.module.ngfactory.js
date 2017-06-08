@@ -27,10 +27,16 @@ var import7 = require("@angular/forms");
 var import8 = require("./app.module");
 var import9 = require("@angular/animations/browser");
 var import10 = require("./app.component.ngfactory");
+var import11 = require("./components/audio-player/audio.player.component.ngfactory");
+var import12 = require("./components/video-player/video.player.component.ngfactory");
 var AppServerModuleInjector = (function (_super) {
     __extends(AppServerModuleInjector, _super);
     function AppServerModuleInjector(parent) {
-        return _super.call(this, parent, [import10.AppComponentNgFactory], [import10.AppComponentNgFactory]) || this;
+        return _super.call(this, parent, [
+            import10.AppComponentNgFactory,
+            import11.AudioPlayerComponentNgFactory,
+            import12.VideoPlayerComponentNgFactory
+        ], [import10.AppComponentNgFactory]) || this;
     }
     Object.defineProperty(AppServerModuleInjector.prototype, "_BrowserXhr_17", {
         get: function () {
@@ -472,4 +478,4 @@ var AppServerModuleInjector = (function (_super) {
     return AppServerModuleInjector;
 }(import0.ɵNgModuleInjector));
 exports.AppServerModuleNgFactory = new import0.NgModuleFactory(AppServerModuleInjector, import1.AppServerModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLnNlcnZlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9jYWJveC93b3Jrc3BhY2Uvc3JjL3dlYi93d3dyb290L2FwcC9hcHAuc2VydmVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLnNlcnZlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9jYWJveC93b3Jrc3BhY2Uvc3JjL3dlYi93d3dyb290L2FwcC9hcHAuc2VydmVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9

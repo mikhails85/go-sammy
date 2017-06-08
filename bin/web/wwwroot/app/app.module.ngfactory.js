@@ -23,10 +23,20 @@ var import3 = require("@angular/platform-browser");
 var import4 = require("@angular/forms");
 var import5 = require("@angular/http");
 var import6 = require("./app.component.ngfactory");
+var import7 = require("./components/audio-player/audio.player.component.ngfactory");
+var import8 = require("./components/video-player/video.player.component.ngfactory");
 var AppModuleInjector = (function (_super) {
     __extends(AppModuleInjector, _super);
     function AppModuleInjector(parent) {
-        return _super.call(this, parent, [import6.AppComponentNgFactory], [import6.AppComponentNgFactory]) || this;
+        return _super.call(this, parent, [
+            import6.AppComponentNgFactory,
+            import7.AudioPlayerComponentNgFactory,
+            import8.VideoPlayerComponentNgFactory
+        ], [
+            import6.AppComponentNgFactory,
+            import7.AudioPlayerComponentNgFactory,
+            import8.VideoPlayerComponentNgFactory
+        ]) || this;
     }
     Object.defineProperty(AppModuleInjector.prototype, "_LOCALE_ID_14", {
         get: function () {
@@ -417,4 +427,4 @@ var AppModuleInjector = (function (_super) {
     return AppModuleInjector;
 }(import0.ɵNgModuleInjector));
 exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLm1vZHVsZS5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9ob21lL2NhYm94L3dvcmtzcGFjZS9zcmMvd2ViL3d3d3Jvb3QvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvY2Fib3gvd29ya3NwYWNlL3NyYy93ZWIvd3d3cm9vdC9hcHAvYXBwLm1vZHVsZS5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9ob21lL2NhYm94L3dvcmtzcGFjZS9zcmMvd2ViL3d3d3Jvb3QvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
